@@ -77,3 +77,24 @@ Shortened URLs were kept defanged.
 No potentially unsafe URL destinations were accessed.
 No attachments were opened.
 Classifications were based on available email evidence.
+
+## Skills Demonstrated
+
+- Phishing email analysis
+- Email header analysis
+- SPF / DKIM / DMARC analysis
+- IOC extraction
+- URL defanging
+- Social-engineering analysis
+- Evidence documentation
+- MITRE ATT&CK mapping
+- Incident-analysis reporting
+- Cybersecurity documentation
+
+## Analyst Notes
+
+This project demonstrates a structured and safety-focused approach to email investigation.
+
+The analysis prioritizes observable evidence such as authentication results, sender infrastructure, message content, and extracted IOCs. Conclusions are limited to what can be supported by the supplied email samples.
+
+Potentially unsafe links were not opened or resolved during the investigation.
