@@ -1,0 +1,62 @@
+Email 02 IOC Analysis
+
+URL:
+- hxxps://bit[.]ly/3vF9xKz
+
+Type:
+- Shortened URL
+
+Source:
+- Email body
+- "Review recent activity" button
+
+Observation:
+- The destination is hidden behind a URL-shortening service.
+- The URL was not opened or resolved during analysis.
+Social Engineering Indicators:
+- Urgency: "[Action Required]"
+- Fear/concern: "Unusual sign-in activity"
+- Claimed location: Russia
+- Claimed IP address: 91.234.99.42
+- Requested action: "Review recent activity"
+- The message instructs the recipient to secure the account immediately if the activity was not theirs.
+- The call-to-action uses a shortened URL.
+Additional IP Indicator:
+- 91.234.99.42
+- Source: Email body
+- Context: Claimed account sign-in IP
+- This value is reported by the email and has not been independently verified.
+Preliminary Verdict:
+- Classification: Likely phishing
+- Confidence: High
+- Key evidence:
+  - Microsoft-themed sender identity using microsoftonline-verify.com
+  - SPF failure
+  - DKIM failure
+  - DMARC failure
+  - Urgent account-security language
+  - Shortened Bitly URL used for the call-to-action
+- The URL was not opened or resolved during analysis.
+- The classification is based on the available email evidence and does not establish what the final URL destination contains.
+IOC Inventory:
+
+Domains:
+- microsoftonline-verify.com
+- mail.microsoftonline-verify.com
+- contabo.net
+
+IP Addresses:
+- 178.238.225.91
+- 91.234.99.42
+
+Email Addresses:
+- noreply@microsoftonline-verify.com
+
+URLs:
+- hxxps://bit[.]ly/3vF9xKz
+
+Notes:
+- 178.238.225.91 is the email's sending IP.
+- 91.234.99.42 is an IP reported in the email body.
+- The Bitly URL is defanged and was not accessed.
+- These indicators are extracted from the email; maliciousness of individual infrastructure indicators has not been independently verified.

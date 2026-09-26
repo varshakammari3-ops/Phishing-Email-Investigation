@@ -1,0 +1,33 @@
+Email 02 Header Analysis
+
+From: noreply@microsoftonline-verify.com
+Return-Path: noreply@microsoftonline-verify.com
+Subject: [Action Required] Unusual sign-in activity on your account
+
+Received Host: mail.microsoftonline-verify.com
+Sending Server: vps-291847.contabo.net
+Sending IP: 178.238.225.91
+
+SPF: FAIL
+SPF Domain: microsoftonline-verify.com
+SPF Sending IP: 178.238.225.91
+
+DKIM: FAIL
+DKIM Domain: microsoftonline-verify.com
+DKIM Selector: default
+
+DMARC: FAIL
+DMARC Policy: p=NONE
+Sender Identity Assessment:
+- The display name claims to be "Microsoft Account Team".
+- The sender domain is microsoftonline-verify.com.
+- The sender domain is not microsoft.com.
+- The domain name uses Microsoft-related terminology that could make the message appear associated with Microsoft.
+- Combined with SPF, DKIM, and DMARC failures, the sender identity is suspicious.
+Sending Infrastructure Assessment:
+- Sending host: mail.microsoftonline-verify.com
+- Underlying server hostname: vps-291847.contabo.net
+- Sending IP: 178.238.225.91
+- The message claims a Microsoft-related identity but was received from infrastructure using a Contabo hostname.
+- SPF, DKIM, and DMARC all failed for the claimed sender domain.
+- The infrastructure and authentication evidence increase concern about sender authenticity.

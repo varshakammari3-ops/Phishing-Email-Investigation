@@ -1,0 +1,39 @@
+From: 132784@534617.vav.proo55.us.com
+Return-Path: bounce@vav.proo55.us.com
+Subject: Welcome gift inside: 50 spins waiting for you💰.944175#.
+Received Host: vav.proo55.us.com
+Sending Server: vps-b3328616.vps.ovh.net
+Sending IP: 141.95.0.46
+SPF: PASS
+SPF Domain: vav.proo55.us.com
+SPF Sending IP: 141.95.0.46
+DKIM: PASS
+DKIM Domain: 534617.vav.proo55.us.com
+DKIM Selector: smtp
+DMARC: Not reported in Authentication-Results
+
+
+Initial Header Assessment: Authentication checks show SPF and DKIM PASS; DMARC result is not reported. Further content/IOC analysis is required before a final verdict.
+Sending Infrastructure Assessment:
+- The message was received from vav.proo55.us.com.
+- The sending server hostname is vps-b3328616.vps.ovh.net.
+- The sending IP address is 141.95.0.46.
+- The message uses a subdomain of vav.proo55.us.com in the From address.
+- Infrastructure details are recorded as evidence; they are not by themselves proof of malicious activity.
+Sender Identity Assessment:
+- The From address uses 534617.vav.proo55.us.com.
+- The Return-Path uses vav.proo55.us.com.
+- The DKIM signing domain is 534617.vav.proo55.us.com.
+- The sender domains are structurally related.
+- No obvious display-name/domain mismatch was identified from the available headers.
+Additional Authentication Detail:
+- DKIM PASS: header.i=@534617.vav.proo55.us.com, selector=smtp.
+- DKIM NEUTRAL (expired): header.i=@googlemail.com, selector=20230601.
+- The expired googlemail.com DKIM result is noted as an additional authentication observation.
+- Authentication results should be considered together with the email content and other evidence.
+Message Metadata:
+- Message-ID: <69109263.170a0220.29f1ba.ca4a.GMR@mx.google.com>
+- Date: Wed, 28 Jan 2026 22:49:43 +0000
+- Auto-Submitted: auto-replied
+- X-Failed-Recipients: jacobcookofficial@google.com
+- These fields provide delivery and message-generation context.

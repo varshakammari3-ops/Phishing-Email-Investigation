@@ -1,0 +1,35 @@
+Email 01 Investigation Summary
+
+Observed Indicators:
+- Promotional casino/gambling content.
+- Shortened TinyURL used for the call-to-action and other links.
+- From address: 132784@534617.vav.proo55.us.com
+- Return-Path: bounce@vav.proo55.us.com
+- Sending IP: 141.95.0.46
+- SPF: PASS
+- DKIM: PASS for 534617.vav.proo55.us.com
+- DKIM: NEUTRAL (expired) for googlemail.com
+- DMARC result was not reported in the supplied Authentication-Results.
+- Auto-Submitted: auto-replied.
+- X-Failed-Recipients field was present.
+
+Safety Actions:
+- No links were opened.
+- The shortened URL was kept defanged.
+- No attachments were opened.
+
+Preliminary Classification:
+Promotional/Spam-style email
+
+Confidence:
+Moderate
+
+Reasoning:
+The message is clearly promotional and contains a shortened URL, but the available evidence does not establish malicious intent. SPF and the primary DKIM result passed, while another DKIM result was expired/neutral. Further analysis would be required to determine whether the shortened URL leads to malicious content.
+
+MITRE ATT&CK Mapping:
+
+Assessment:
+- No ATT&CK phishing technique is assigned at this stage.
+- The available evidence supports a promotional/spam-style classification rather than a confirmed phishing technique.
+- The shortened URL is documented as an IOC, but the destination was not accessed and no malicious behavior was established.

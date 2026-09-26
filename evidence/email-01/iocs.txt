@@ -1,0 +1,43 @@
+URL: hxxps://tinyurl[.]com/mrymsuhv
+Type: Shortened URL
+Source: Email body
+Observation: Shortened URL hides the final destination; URL was not opened during analysis.
+Body Indicators:
+- Promotional offer: "50 Spins On Us"
+- Call-to-action: "Start Spinning Now"
+- Signup incentive: "quick signup, instant spins"
+- Same shortened URL used for CTA, unsubscribe, and terms links
+- X-Failed-Recipients: jacobcookofficial@google.com
+
+URL Analysis:
+- The URL uses TinyURL URL-shortening service.
+- The final destination is hidden from the analyst.
+- The URL was not opened or resolved during investigation.
+- No claim about the final destination is made without further safe analysis.
+Preliminary Verdict:
+- Current evidence is consistent with a promotional/spam-style email.
+- The available authentication results do not establish that the message is malicious.
+- The shortened URL is an indicator requiring caution, but it was not opened or resolved.
+- Final classification will be made after the remaining investigation steps.
+IOC Inventory:
+
+Domains:
+- vav.proo55.us.com
+- 534617.vav.proo55.us.com
+- vps-b3328616.vps.ovh.net
+- tinyurl.com
+
+IP Addresses:
+- 141.95.0.46
+
+Email Addresses:
+- 132784@534617.vav.proo55.us.com
+- bounce@vav.proo55.us.com
+- jacobcookofficial@google.com
+
+URLs:
+- hxxps://tinyurl[.]com/mrymsuhv
+
+Notes:
+- The URL is defanged and was not accessed.
+- These indicators are extracted from the email and are not independently confirmed as malicious.

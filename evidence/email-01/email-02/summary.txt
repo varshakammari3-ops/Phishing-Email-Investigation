@@ -1,0 +1,39 @@
+Email 02 Investigation Summary
+
+Observed Indicators:
+- Microsoft-themed display name: "Microsoft Account Team"
+- Sender domain: microsoftonline-verify.com
+- Sending IP: 178.238.225.91
+- SPF: FAIL
+- DKIM: FAIL
+- DMARC: FAIL
+- Urgent subject requesting action on unusual sign-in activity
+- Claimed sign-in IP in body: 91.234.99.42
+- Shortened Bitly URL used for "Review recent activity"
+- Sending infrastructure includes vps-291847.contabo.net
+
+Safety Actions:
+- No links were opened.
+- The shortened URL was kept defanged.
+- No attachments were opened.
+
+Preliminary Classification:
+Likely phishing
+
+Confidence:
+High
+
+Reasoning:
+The message uses a Microsoft-themed identity while using a non-Microsoft sender domain. SPF, DKIM, and DMARC all failed. The email also uses urgent account-security language and directs the recipient to a shortened URL. These combined indicators support a phishing classification.
+MITRE ATT&CK Mapping:
+
+Technique:
+T1566.002 — Phishing: Spearphishing Link
+
+Evidence:
+- The email uses an account-security lure.
+- The recipient is instructed to "Review recent activity".
+- A shortened Bitly URL is provided as the call-to-action.
+
+Assessment:
+The email behavior is consistent with a phishing link technique.
